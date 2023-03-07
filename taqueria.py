@@ -19,6 +19,7 @@ def main():
           
         #until the user inputs control-d
         except EOFError:
+            print()
             break
 
 
